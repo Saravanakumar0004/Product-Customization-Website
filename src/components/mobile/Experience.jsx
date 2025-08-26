@@ -2,7 +2,7 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Center, OrbitControls, Bounds } from '@react-three/drei';
 import { useCustomization } from './Customization';
-import { Model } from './mobile.jsx';
+import { Mobile } from './mobile.jsx';
 
 function Ground() {
   return (
@@ -40,7 +40,7 @@ export default function Experience() {
 
       <Bounds fit clip observe margin={1.2}>
         <Center>
-          <Model
+          <Mobile
             selectedFrameColor={selectedFrameColor}
             selectedScreenColor={selectedScreenColor}
             selectedBackColor={selectedBackColor}
