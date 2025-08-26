@@ -17,7 +17,6 @@ export function Mobile({
         <mesh geometry={nodes.back_details_glass.geometry} material={materials.glass} />
         <mesh geometry={nodes.back_inside.geometry} material={materials.back_inside} />
 
-
         <mesh geometry={nodes.backCover.geometry}>
           <meshStandardMaterial color={selectedBackColor.color} />
         </mesh>
@@ -25,7 +24,6 @@ export function Mobile({
         <mesh geometry={nodes.backCover_camera.geometry} material={materials.back_cover_thickness} />
         <mesh geometry={nodes.camera_front.geometry} material={materials.cameras} />
         <mesh geometry={nodes.camera_front_glass.geometry} material={materials.cameras_lense} />
-
 
         <mesh geometry={nodes.frame_plastic.geometry}>
           <meshStandardMaterial color={selectedFrameColor.color} />
