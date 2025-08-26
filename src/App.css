@@ -1,0 +1,27 @@
+
+.app p{
+    color: white;
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: bold;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn {
+  background-color: #242424;
+  border: none;
+  outline: none;          
+  color: white;
+  padding: 10px 20px;
+  margin: 20px;
+  margin-bottom: 10px;
+  cursor: pointer;
+  font-size: 30px;
+  text-transform: uppercase;        
+}
+
+.btn:focus,
+.btn:active {
+  outline: none;          
+  border: none;           
+}
