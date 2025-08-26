@@ -1,7 +1,7 @@
 import React from "react";
 import { useGLTF } from "@react-three/drei";
 
-export function Model({
+export function Mobile({
   selectedFrameColor = { color: "#888888" },
   selectedScreenColor = { color: "#000000" },
   selectedBackColor = { color: "#ffffff" },
