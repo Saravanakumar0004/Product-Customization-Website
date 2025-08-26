@@ -2,7 +2,7 @@ import React from 'react';
 import { Canvas } from '@react-three/fiber';
 import { Center, OrbitControls, Bounds } from '@react-three/drei';
 import { useCustomization } from './Customization';
-import { Mobile } from './Mobile.jsx';
+import { Mobile } from './Mobile.jsx'; 
 
 function Ground() {
   return (
